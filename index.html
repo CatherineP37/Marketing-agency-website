@@ -9,12 +9,16 @@
     <script src="https://kit.fontawesome.com/758be0af3f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <header>
         <a href="index.html" class="logo"><h1>DIGITAL MARKETING AGENCY</h1></a>
-		<nav>			
-			<button class="menu_button" onclick="showMenu()"><i class="fa-solid fa-bars"></i></button>			
-		    <ul id="mobile_menu" class="mobile_menu">
+        <button id="closed" onclick="openMobileMenu()">
+            <i class="fa-solid fa-bars"></i>            
+        </button>
+        <button id="opened" onclick="closeMobileMenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>				
+	</header>
+    <ul id="mobileMenu" class="mobile-menu">
 				<li>
                     <a href="index.html">Home</a>
 				</li>
@@ -28,9 +32,6 @@
                     <a href="contact.html">Contact</a>
 			    </li>														
 		    </ul>
-        </nav>
-					
-	</header>
 
 	<main>
 

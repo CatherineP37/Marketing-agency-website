@@ -9,8 +9,61 @@
     box-sizing: border-box;	
 }
 
-p, h1, h2, h3, a {
+h1 {
+    font-family: Bebas Neue;
+    color: #2F9387;
+}
+
+p, h2, h3, a {
 	color: #131515;
 	font-family: inter;
 	text-decoration: none;
 }
+
+/* Header */
+
+header {
+    display: flex;    
+    padding: 16px 1rem;
+    justify-content: space-between;
+}
+
+#closed, #opened {
+    background-color: #FFFFFF;
+}
+
+#closed i, #opened i {    
+    color: #131515;
+    font-size: 1.25rem;
+}
+
+.mobile-menu {
+    display: none;
+    list-style-type: none;
+    width: 100%;
+    background-color: #257067;
+    width: 100%;
+}
+
+.mobile-menu li {
+    padding: 16px 1rem;
+    background-color: #2F9387;  
+}
+
+.mobile-menu li:hover {
+    cursor: pointer;
+    background-color: #297D73;;
+}
+
+.mobile-menu li a {
+    color: #FFFFFF;
+}
+
+#closed {
+    display: block;
+}
+
+#opened {
+    display: none;
+}
+
