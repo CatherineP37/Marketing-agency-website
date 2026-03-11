@@ -20,6 +20,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
 p {
     line-height: 1.5;
 }
@@ -112,7 +117,30 @@ header {
     background-color: #297D73;
 }
 
+/* Container */
+
+.container {
+    padding: 16px 1rem;    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    gap: 16px;
+}
+
 /* Services section */
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7fr;
+    gap: 16px;
+}
+
+.services div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
 
 
