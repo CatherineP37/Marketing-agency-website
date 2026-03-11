@@ -86,7 +86,7 @@ header {
     display: none;
 }
 
-/* Introduction */
+/* Mobile introduction */
 
 .mobile-introduction {
     padding: 16px 1rem;    
@@ -111,4 +111,8 @@ header {
     cursor: pointer;
     background-color: #297D73;
 }
+
+/* Services section */
+
+
 
