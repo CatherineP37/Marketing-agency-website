@@ -29,6 +29,10 @@ p {
     line-height: 1.5;
 }
 
+p, h4 {
+    font-size: 1rem;
+}
+
 p, h2, h3, h4, a {
 	color: #131515;
 	font-family: inter;
@@ -140,6 +144,27 @@ header {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+/* Reviews */
+
+.reviews {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    gap: 16px;
+}
+
+.review {
+    background-color: #B8E6E1;
+    padding: 8px 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.review h3 {
+    font-size: 1.5rem;
 }
 
 
