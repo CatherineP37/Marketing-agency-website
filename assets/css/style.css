@@ -211,13 +211,13 @@ form input, form textarea {
 
 footer {
     background-color: #2F9387;
-    padding: 16px 1rem;   
+    padding: 16px 1rem;    
 }
 
 .footer-content {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 16px;    
 }
 
 .name h2 {
