@@ -11,6 +11,7 @@
 
 h1 {
     font-family: Bebas Neue;
+    letter-spacing: 2px;
     color: #2F9387;
     font-size: 2.25rem;
 }
@@ -206,5 +207,55 @@ form input, form textarea {
     display: none;
 }
 
+/* Footer */
+
+footer {
+    background-color: #2F9387;
+    padding: 16px 1rem;   
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.name h2 {
+    color: #FFFFFF;
+    font-family: Bebas Neue;
+    letter-spacing: 2px;   
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.name p {
+    color: #FFFFFF;
+}
+
+.social-media ul {
+    list-style-type: none;    
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media ul li a {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.page-links {
+    display: flex;
+    gap: 3rem;
+}
+
+.page-links .left, .page-links .right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.page-links a {
+    color: #FFFFFF;
+}
 
 
