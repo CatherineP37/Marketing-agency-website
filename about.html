@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/758be0af3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><h1>DIGITAL MARKETING</h1></a>
+        <button id="closed" onclick="openMobileMenu()">
+            <i class="fa-solid fa-bars"></i>            
+        </button>
+        <button id="opened" onclick="closeMobileMenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>				
+	</header>
+    <ul id="mobileMenu" class="mobile-menu">
+				<li>
+                    <a href="index.html">Home</a>
+				</li>
+				<li>
+                    <a href="about.html">About</a>
+				</li>
+				<li>					
+                    <a href="services.html">Services</a>
+				</li>
+				<li>
+                    <a href="contact.html">Contact</a>
+			    </li>														
+		    </ul>
+
+	<main>
+
+		<section class="container">
+            <h2>About us</h2>
+
+        </section>							
+	
+
+		<section class="container">
+			<h2>What do we offer?</h2>
+			<div class="services">
+				<div>
+                    <img src="assets/images/SEO.svg" />
+					<h3>SEO</h3>
+					<p>We help you get to first position in the user’s list of search results. People will see you website before other websites.
+						This will encourage more visitors to visit your website. We do this by building valuable backlinks and by writing content 
+						that includes relevant keywords. We also optimise your websites performance to ensure a pleasant experience for your users.
+					</p>
+				</div>
+				<div>
+                    <img src="assets/images/PPC.svg" />
+					<h3>PPC</h3>
+					<p>We encourage more users to visit your site by using Pay per Click (PPC) ads. These ads ensure that your website is first
+						in the list of websites. You'll only have to pay for this service if a user clicks on your link and visits your website.
+						This ensures that your money is not wasted.
+					</p>
+				</div>
+				<div>
+                    <img src="assets/images/analytics.svg" />
+					<h3>Analytics</h3>
+					<p>We analyse the data to build effective marketing strategies that suit your business. We look at various key performance 
+						indicators such as bounce rate, length of time spent on pages and cart abandonment rate. The tools we use for this 
+						are Google Analytics and SEO machine. We use these tools to ensure that we're improving the areas of your website that
+						need to be improved.
+					</p>
+				</div>
+				<div>
+                    <img src="assets/images/content.svg" />
+					<h3>Content marketing</h3>
+					<p>We have a team of talented graphic designers, writers and film editors that work together to tell a story to interest
+						your visitors. Our team have a huge success rate, increasing traffic to our websites by 90%. They can do the same for
+						your website.
+					</p>
+				</div>
+				<div>
+                    <img src="assets/images/web.svg" />
+					<h3>Web design</h3>
+					<p>We can design and build a bespoke website that suits your specific needs. We have a team of frontend developers who can
+						ensure you have an engaging and useful website. There's also a team of backend developers who ensure that data is being
+						handled correctly.
+					</p>
+				</div>
+				<div>
+                    <img src="assets/images/email.svg" />
+					<h3>Email marketing</h3>
+					<p>Email marketing is a very effective tool to engage customers and potential customers. The user gets the chance to sign up
+						for the email newsletter when they visit the website. The purpose of the newsletter isn't just to try to sell things to
+						your users. It's also to provide them with useful and interesting information. 
+					</p>
+				</div>				
+			</div>
+			
+		</section>
+
+		<section class="container">			
+			<h2>Reviews</h2>
+			<div class="reviews">
+				<div class="review">
+					<h3>Great service!</h3>
+					<p>“Digital Marketing helped us increase our profit by 50% in just 3 months. They reply to our messages almost instantly and they provide clear advice.”</p>
+					<h4>Lisa Taylor, Green Bus</h4>
+				</div>
+				<div class="review">
+					<h3>Brilliant</h3>
+					<p>Digital Marketing supported throughout our business development journey. Their advice was helpful and very easy to follow. They replied to our messages quickly. “”</p>
+					<h4>Robyn Paolini, LP Hotel</h4>
+				</div>
+				<div class="review">
+					<h3>Very satisfied</h3>
+					<p>“Digital Marketing helped our business grow. With their expertise they provided huge benefits for our business. We can’t recommend them more.”</p>
+					<h4>Lucy Banks, Marco's Pizza</h4>
+				</div>
+				<div class="review">
+					<h3>Very helpful</h3>
+					<p>“My business didn’t have many customers but Digital Marketing changed that. They increased the amount of customers by 62%. Very happy!”</p>
+					<h4>Lisa Green, Lisa's Hair Salon</h4>
+				</div>
+				<div class="review">
+					<h3>Great agency!</h3>
+					<p>“Digital Marketing helped us advertise our services. They replied to our messages very quickly and provided easy to follow tips.”</p>
+					<h4>Jack Wallace, ST Dental</h4>
+				</div>
+				<div class="review">
+					<h3>So helpful</h3>
+					<p>“Digital Marketing provided a fantastic service. We recommend them to other businesses and organisations.10 out of 10.”</p>
+					<h4>Tony McDonald, Bella</h4>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="container">
+			
+			<div class="contact-mobile">
+				<h2>Get in touch</h2>
+				<div class="contact-message">
+					<p>We reply within 24 hours. If you would like us to call you back please tell us your phone number in your message.</p>
+				</div>
+				<form>				        
+				    <div>
+				        <label for="name">Your name</label>					    
+				        <input type="text" id="name" required>
+				    </div>
+			        <div>
+                        <label for="email">Your email address</label>					    
+				        <input type="email" id="email" required>
+				    </div>
+				    <div>
+				        <label for="message">How can we help you?</label>			            
+			            <textarea id="message" required></textarea>
+				    </div>
+				    <div>
+                        <input type="submit" class="contact-button" value="Send message">
+				    </div>				
+			    </form>
+
+			</div>
+
+			<div class="contact-desktop">
+			    <div class="left_column">
+				    <img src="assets/images/5.png" />
+			    </div>
+			    <div class="right-column">
+                    <form>
+				        <h3>Get in touch</h3>
+				        <div>
+				            <label for="name">Your name</label>					        
+				            <input type="text" id="name" required>
+				         </div>
+			            <div>
+                            <label for="email">Your email address</label>					        
+				            <input type="email" id="email" required>
+				        </div>
+				        <div>
+				            <label for="message">How can we help you?</label>			                
+			                <textarea id="message" required></textarea>
+				        </div>
+				        <div>
+                           <input type="submit" class="contact-button" value="Send message">
+				       </div>				
+			        </form>
+			    </div>			
+			</div>
+
+		</section>
+	</main>
+	<footer>
+		<div class="footer-content">
+		    <div class="name">
+				<h2>DIGITAL MARKETING</h2>
+                <p><i class="fa-regular fa-copyright"></i>&nbsp;Digital Marketing Agency 2026</p>
+		    </div>		
+		    <div class="social-media">
+			     <ul>
+                    <li>
+						<a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+						<a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+					</li>
+					 <li>
+						<a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+					</li>
+					 <li>
+						<a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="Visit our LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
+					</li>
+				</ul>
+		    </div>
+			<div class="page-links">
+				<ul class="left">
+					<a>Home</a>
+					<a>About</a>
+					<a>Services</a>
+				</ul>
+				<ul class="right">
+					<a>Contact</a>
+					<a>Privacy</a>
+					<a>Accessibility</a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
