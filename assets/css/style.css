@@ -57,6 +57,8 @@ header {
     width: 90%;
     margin: 0 auto;
     padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 #closed, #opened {
@@ -482,10 +484,9 @@ footer {
 
 }
 
-@media screen and (min-width: 1000px) {   
-
+@media screen and (min-width: 1000px) { 
+    
     /* Desktop introduction */
-
     
     .desktop-introduction .left-side {        
         gap: 32px;      
@@ -528,7 +529,7 @@ footer {
 
     /* Header */
 
-    header {        
+    .header-content {        
         max-width: 1000px;          
     }
 
