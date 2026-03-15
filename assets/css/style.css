@@ -155,12 +155,6 @@ header {
     gap: 16px;
 }
 
-.mobile-about-section .about-1, .mobile-about-section .about-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
 /* Desktop about section */
 
 .desktop-about-section {
@@ -416,26 +410,13 @@ footer {
 
     /* Mobile about section */
 
-.mobile-about-section {
-    padding: 16px 0;
-    width: 90%;
-    margin: 0 auto;    
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-    .mobile-about-section .about-1, .mobile-about-section .about-2 {
+    .mobile-about-section {
         display: none;
     }
 
     /* Desktop about section */
 
     .desktop-about-section {
-        display: block;
-    }
-
-    .desktop-about-section .about-1 {
         display: flex;
         justify-content: space-between;
         padding: 24px 0;
@@ -443,33 +424,17 @@ footer {
         margin: 0 auto;
     }
 
-    .desktop-about-section .about-1 .left-side {
+    .desktop-about-section .left-side {
         width: 47%;
     }
 
-    .desktop-about-section .about-1 .left-side .contact-button {
+    .desktop-about-section .left-side .contact-button {
         width: 80%;
     }
 
-    .desktop-about-section .about-1 .right-side {
+    .desktop-about-section .right-side {
         width: 47%;
-    }
-
-    .desktop-about-section .about-2 {
-        display: flex;
-        justify-content: space-between;
-        padding: 24px 0;
-        width: 87%;
-        margin: 0 auto;
-    }
-
-    .desktop-about-section .about-2 .left-side {
-        width: 47%;
-    }
-
-    .desktop-about-section .about-2 .right-side {
-        width: 47%;
-    }
+    }   
 
    /* Container */
 
@@ -544,7 +509,7 @@ footer {
 
 @media screen and (min-width: 1000px) { 
 
-      /* Header */
+    /* Header */
 
     .header-content {
         width: 85%;                 
@@ -554,14 +519,18 @@ footer {
 
     .desktop-introduction {
         width: 85%;                
-    }
-
-     /* Desktop introduction */               
+    }               
         
     .desktop-introduction .left-side {        
         gap: 32px;      
-    }  
+    }
     
+     /* Desktop about section */
+
+    .desktop-about-section {        
+        width: 85%;      
+    }
+   
     /* Container */
 
     .container {
@@ -624,7 +593,13 @@ footer {
     .desktop-introduction .left-side .contact-button {        
         margin: 40px 0 0 0;
         width: 90%;
-    }  
+    }
+
+      /* Desktop about section */
+
+    .desktop-about-section {        
+        width: 82%;      
+    }
 
      /* Container */
 
