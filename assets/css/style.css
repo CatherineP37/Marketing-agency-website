@@ -66,6 +66,12 @@ header {
     font-size: 1.5rem;
 }
 
+.desktop-menu {
+    display: none;
+}
+
+/* Mobile menu */
+
 .mobile-menu {
     display: none;
     list-style-type: none;
