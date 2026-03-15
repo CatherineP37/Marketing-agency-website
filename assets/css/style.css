@@ -314,33 +314,11 @@ footer {
 }
 
 @media screen and (min-width: 576px) {
-    /* Header */
-
-    .header-content {            
-        width: 85%;      
-    }   
+    /* Mobile menu */    
 
     .mobile-menu li {
         padding: 16px 1.5rem;        
-    }
-
-    /* Mobile introduction */
-
-    .mobile-introduction {
-        width: 85%;      
-    }
-
-    /* Container */
-
-    .container {
-        width: 85%;   
-    }
-
-    /* Footer */
-
-    .footer-content {
-        width: 85%;        
-    }
+    }    
 
 }
 
@@ -349,7 +327,7 @@ footer {
     /* Header */
 
     .header-content {        
-        width: 80%;          
+        width: 87%;          
     }
 
     .desktop-menu {
@@ -390,7 +368,7 @@ footer {
         display: flex;
         justify-content: space-between;
         padding: 24px 0;
-        width: 80%;
+        width: 87%;
         margin: 0 auto;          
     }
   
@@ -417,7 +395,7 @@ footer {
 
     .container {
         padding: 24px 0;
-        width: 80%;                  
+        width: 87%;                  
         gap: 24px;
     }
 
@@ -472,7 +450,7 @@ footer {
     }
 
     .footer-content {
-        width: 80%;
+        width: 87%;
         display: flex;    
         flex-direction: row;     
         justify-content: space-between;   
@@ -484,34 +462,33 @@ footer {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) { 
 
-    /* Header */
+      /* Header */
 
-    .header-content {        
-        width: 75%;          
+    .header-content {
+        width: 85%;                 
     }
-    
-    /* Desktop introduction */    
 
-    .desktop-introduction {        
-        width: 75%;                 
+    /* Desktop introduction */
+
+    .desktop-introduction {
+        width: 85%;                
     }
-    
+
+     /* Desktop introduction */               
+        
     .desktop-introduction .left-side {        
         gap: 32px;      
-    }
-
-    .desktop-introduction .contact-button {
-        width: 75%;
-    }
-
+    }  
+    
     /* Container */
 
-    .container {      
-        width: 75%;     
+    .container {
+        width: 85%;           
     }
-   
+
+    
     /* Services section */
 
     .services {        
@@ -519,13 +496,13 @@ footer {
         grid-template-rows: 1fr 1fr;          
     }
 
-    /* Reviews */
+      /* Reviews */
 
     .reviews {        
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;       
     }
-
+    
     /* Contact */
 
       .contact-form form textarea {
@@ -534,26 +511,25 @@ footer {
 
     /* Footer */
 
-     .footer-content {
-        width: 75%;        
-    }
-
+    .footer-content {
+        width: 85%;      
+    }   
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
 
     /* Header */
 
-    .header-content {   
-        width: 70%;  
-        max-width: 1000px;          
+    .header-content {
+        width: 82%;       
+        max-width: 1150px;               
     }
 
     /* Desktop introduction */
 
     .desktop-introduction {
-        width: 70%;     
-        max-width: 1000px;           
+        width: 82%;           
+        max-width: 1150px;         
     }
     
     .desktop-introduction .left-side {        
@@ -570,22 +546,22 @@ footer {
         width: 90%;
     }
 
-      .desktop-introduction .left-side { 
+    .desktop-introduction .left-side { 
         width: 50%;      
     }
 
      /* Container */
 
     .container {
-        width: 70%;   
-        max-width: 1000px;      
+        width: 82%;     
+        max-width: 1150px;      
     }
 
     /* Footer */
 
     .footer-content {
-        width: 70%;
-        max-width: 1000px;
+        width: 82%;      
+        max-width: 1150px;
     }
     
 }
