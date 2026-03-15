@@ -242,11 +242,18 @@ footer {
     gap: 16px;    
 }
 
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .name h2 {
     color: #FFFFFF;
     font-family: Bebas Neue;
     letter-spacing: 2px;   
     font-size: 2.5rem;
+    line-height: 1;
     text-align: left;
 }
 
@@ -265,18 +272,18 @@ footer {
     font-size: 1rem;
 }
 
-.page-links {
+.group-2 {
     display: flex;
     gap: 9rem;
 }
 
-.page-links .left, .page-links .right {
+.group-2 .left, .group-2 .right {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.page-links a {
+.group-2 a {
     color: #FFFFFF;
 }
 
@@ -429,6 +436,18 @@ footer {
     .contact-form form textarea {
         min-height: 100px;
     }
+    
+    /* Footer */
+
+    footer {        
+        padding: 24px 1.5rem;    
+    }
+
+    .footer-content {
+        display: flex;    
+        flex-direction: row;     
+        justify-content: space-between;   
+    }
 
 }
 
@@ -479,10 +498,59 @@ footer {
         min-height: 200px;
     }
 
+    /* Footer */
+
+    footer {        
+        padding: 24px 2rem;    
+    }
 
 }
 
 @media screen and (min-width: 1200px) {
+
+    /* Header */
+
+    header {        
+        padding: 24px 11rem 40px 11rem;            
+    }
+
+    /* Desktop introduction */
+
+    .desktop-introduction {       
+        padding: 24px 11rem;            
+    }
+
+    
+    .desktop-introduction .left-side {        
+        gap: 40px;
+        width: 28%;         
+    }
+
+    .desktop-introduction .left-side h2 {
+        font-size: 3rem;
+    }
+
+    .desktop-introduction .left-side .contact-button {        
+        margin: 40px 0 0 0;
+        width: 90%;
+    }
+
+      .desktop-introduction .left-side { 
+        width: 50%;      
+    }
+
+     /* Container */
+
+    .container {
+        padding: 24px 11rem;       
+    }
+
+    /* Footer */
+
+    footer {        
+        padding: 24px 11rem;    
+    }
+
     
 }
 
