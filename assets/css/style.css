@@ -299,6 +299,28 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    /* Header */
+
+    .desktop-menu {
+        display: block;        
+    }
+
+    .desktop-menu ul {
+        list-style-type: none;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .desktop-menu ul li a:hover {
+        text-decoration-line: underline;        
+        text-decoration-color: #131515;
+        text-underline-offset: 8px;
+    }
+
+    #closed, #opened {
+        display: none;
+    }
+
     .active {
         text-decoration-line: underline;        
         text-decoration-color: #131515;
