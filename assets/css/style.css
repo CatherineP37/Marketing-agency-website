@@ -182,7 +182,7 @@ header {
 
 /* Contact */
 
-.contact-mobile {
+.contact-section {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -196,7 +196,16 @@ header {
     gap: 16px;
 }
 
-form {    
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .image {
+    display: none;
+}
+
+.contact form {    
     font-family: inter;
     padding: 0;
     display: flex;
@@ -204,19 +213,20 @@ form {
     gap: 16px;
 }
 
-form div {    
+.contact form div {    
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-form input, form textarea {
+.contact form input, .contact form textarea {
     border: 1px solid #9D9D9D;
     padding: 8px 0.5rem;
 }
 
-.contact-desktop {
-    display: none;
+.contact .contact-button {
+    padding: 12px 0;
+    width: 100%;
 }
 
 /* Footer */
@@ -393,6 +403,30 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 1.5rem;
+    }
+
+    /* Contact */
+
+    .contact {        
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .contact .image {
+        display: block;
+        width: 48%;
+    }
+
+    .contact-form {
+        width: 48%;        
+    }
+
+    .contact-form form {
+        width: 100%;
+    }
+
+    .contact-form form textarea {
+        min-height: 100px;
     }
 
 }
