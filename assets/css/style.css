@@ -308,8 +308,12 @@ footer {
 
     /* Header */
 
+    header {        
+        padding: 24px 1.5rem;            
+    }
+
     .desktop-menu {
-        display: block;              
+        display: block;                    
     }
 
     .desktop-menu ul {
@@ -365,6 +369,8 @@ footer {
     .desktop-introduction .contact-button {
         width: 90%;
     }
+
+
 
 }
 
