@@ -409,7 +409,7 @@ footer {
 
     .contact {        
         flex-direction: row;
-        gap: 1.5rem;
+        justify-content: space-between;
     }
 
     .contact .image {
