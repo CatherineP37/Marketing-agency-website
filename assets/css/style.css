@@ -292,7 +292,6 @@ footer {
 
     .container {
         padding: 16px 1.5rem;    
-    
     }
 
     /* Footer */
@@ -374,6 +373,11 @@ footer {
         width: 90%;
     }
 
+     /* Container */
+
+    .container {
+        padding: 24px 1.5rem;    
+    }
 
 
 }
