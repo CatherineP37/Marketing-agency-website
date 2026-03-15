@@ -349,11 +349,15 @@ footer {
     .desktop-introduction {
         display: flex;
         justify-content: space-between;
-        padding: 16px 1.5rem;        
+        padding: 24px 1.5rem;            
     }
 
-    .desktop-introduction .left-side, .desktop-introduction .right-side {
-        width: 48%;        
+    .desktop-introduction .left-side {
+        width: 50%;        
+    }
+
+    .desktop-introduction .right-side {
+        width: 47%;
     }
 
     .desktop-introduction .left-side {
