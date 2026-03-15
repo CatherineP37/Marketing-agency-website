@@ -139,9 +139,8 @@ header {
 
 .container {
     padding: 16px 1rem;    
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
+    display: flex;
+    flex-direction: column;    
     gap: 16px;
 }
 
@@ -373,17 +372,19 @@ footer {
         width: 90%;
     }
 
-     /* Container */
+   /* Container */
 
     .container {
-        padding: 24px 1.5rem;    
+        padding: 24px 1.5rem;                   
+        gap: 24px;
     }
 
     /* Services section */
 
     .services {        
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;       
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1.5rem;       
     }
 
 }
