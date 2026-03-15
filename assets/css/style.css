@@ -164,7 +164,7 @@ header {
 .reviews {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 6fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 16px;
 }
 
@@ -385,6 +385,14 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 1.5rem;       
+    }
+
+    /* Reviews */
+
+    .reviews {        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1.5rem;
     }
 
 }
