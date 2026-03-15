@@ -283,6 +283,13 @@ footer {
     
     }
 
+    /* Footer */
+
+    footer {
+        background-color: #2F9387;
+        padding: 16px 1rem;    
+    }
+
 }
 
 @media screen and (min-width: 768px) {
