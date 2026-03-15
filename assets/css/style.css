@@ -373,14 +373,14 @@ footer {
     }
   
     .desktop-introduction .left-side {
-        width: 50%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         gap: 16px;
     }
 
     .desktop-introduction .right-side {
-        width: 47%;
+        width: 50%;
     }
 
     .desktop-introduction .left-side h2 {
@@ -534,7 +534,7 @@ footer {
     
     .desktop-introduction .left-side {        
         gap: 40px;
-        width: 24%;         
+        width: 42%;         
     }
 
     .desktop-introduction .left-side h2 {
@@ -544,11 +544,7 @@ footer {
     .desktop-introduction .left-side .contact-button {        
         margin: 40px 0 0 0;
         width: 90%;
-    }
-
-    .desktop-introduction .left-side { 
-        width: 50%;      
-    }
+    }  
 
      /* Container */
 
