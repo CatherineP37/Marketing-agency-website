@@ -299,6 +299,12 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    .active {
+        text-decoration-line: underline;        
+        text-decoration-color: #131515;
+        text-underline-offset: 8px;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
