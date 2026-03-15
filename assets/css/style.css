@@ -20,6 +20,7 @@ h1 {
 h2 {
     font-size: 2.5rem;
     text-align: center;
+    line-height: 1;
 }
 
 h3 {
@@ -425,7 +426,14 @@ footer {
     }
 
     .desktop-about-section .left-side {
-        width: 47%;
+        width: 52%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .desktop-about-section .left-side .paragraph-2 {
+        display: none;
     }
 
     .desktop-about-section .left-side .contact-button {
@@ -529,7 +537,8 @@ footer {
 
     .desktop-about-section {        
         width: 85%;      
-    }
+    }   
+   
    
     /* Container */
 
@@ -599,6 +608,12 @@ footer {
 
     .desktop-about-section {        
         width: 82%;      
+    }
+
+     .desktop-about-section .left-side .paragraph-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
 
      /* Container */
