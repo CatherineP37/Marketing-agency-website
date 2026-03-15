@@ -469,6 +469,12 @@ footer {
         grid-template-rows: 1fr 1fr;       
     }
 
+    /* Contact */
+
+     .contact-form form textarea {
+        min-height: 200px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
