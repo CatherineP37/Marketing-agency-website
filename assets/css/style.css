@@ -154,6 +154,12 @@ header {
     gap: 16px;
 }
 
+/* Desktop about section */
+
+.desktop-about-section {
+    display: none;
+}
+
 /* Container */
 
 .container {
