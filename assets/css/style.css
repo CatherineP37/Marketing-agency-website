@@ -317,7 +317,7 @@ footer {
     /* Header */
 
     .header-content {            
-        width: 80%;      
+        width: 85%;      
     }   
 
     .mobile-menu li {
@@ -327,29 +327,29 @@ footer {
     /* Mobile introduction */
 
     .mobile-introduction {
-        width: 80%;      
+        width: 85%;      
     }
 
     /* Container */
 
     .container {
-        width: 80%;   
+        width: 85%;   
     }
 
     /* Footer */
 
     .footer-content {
-        width: 80%;        
+        width: 85%;        
     }
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
 
     /* Header */
 
     .header-content {        
-        width: 70%;          
+        width: 80%;          
     }
 
     .desktop-menu {
@@ -390,7 +390,7 @@ footer {
         display: flex;
         justify-content: space-between;
         padding: 24px 0;
-        width: 70%;
+        width: 80%;
         margin: 0 auto;          
     }
   
@@ -417,7 +417,7 @@ footer {
 
     .container {
         padding: 24px 0;
-        width: 70%;                  
+        width: 80%;                  
         gap: 24px;
     }
 
@@ -468,11 +468,11 @@ footer {
     /* Footer */
 
     footer {        
-        padding: 24px 1.5rem;    
+        padding: 24px 0;    
     }
 
     .footer-content {
-        width: 70%;
+        width: 80%;
         display: flex;    
         flex-direction: row;     
         justify-content: space-between;   
@@ -484,18 +484,33 @@ footer {
 
 }
 
-@media screen and (min-width: 1000px) { 
+@media screen and (min-width: 1000px) {
+
+    /* Header */
+
+    .header-content {        
+        width: 75%;          
+    }
     
-    /* Desktop introduction */
+    /* Desktop introduction */    
+
+    .desktop-introduction {        
+        width: 75%;                 
+    }
     
     .desktop-introduction .left-side {        
         gap: 32px;      
     }
 
     .desktop-introduction .contact-button {
-        width: 80%;
+        width: 75%;
     }
 
+    /* Container */
+
+    .container {      
+        width: 75%;     
+    }
    
     /* Services section */
 
@@ -519,8 +534,8 @@ footer {
 
     /* Footer */
 
-    footer {        
-        padding: 24px 0;    
+     .footer-content {
+        width: 75%;        
     }
 
 }
@@ -529,13 +544,15 @@ footer {
 
     /* Header */
 
-    .header-content {        
+    .header-content {   
+        width: 70%;  
         max-width: 1000px;          
     }
 
     /* Desktop introduction */
 
-    .desktop-introduction {       
+    .desktop-introduction {
+        width: 70%;     
         max-width: 1000px;           
     }
     
@@ -559,16 +576,17 @@ footer {
 
      /* Container */
 
-    .container {        
+    .container {
+        width: 70%;   
         max-width: 1000px;      
     }
 
     /* Footer */
 
     .footer-content {
+        width: 70%;
         max-width: 1000px;
     }
-
     
 }
 
