@@ -14,6 +14,7 @@ h1 {
     letter-spacing: 2px;
     color: #2F9387;
     font-size: 2.5rem;
+    line-height: 1;
 }
 
 h2 {
@@ -308,7 +309,7 @@ footer {
     /* Header */
 
     .desktop-menu {
-        display: block;        
+        display: block;              
     }
 
     .desktop-menu ul {
@@ -331,6 +332,38 @@ footer {
         text-decoration-line: underline;        
         text-decoration-color: #131515;
         text-underline-offset: 8px;
+    }
+
+    /* Mobile introduction */
+
+    .mobile-introduction {
+        display: none;
+    }
+
+    /* Desktop introduction */
+
+    .desktop-introduction {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 1.5rem;        
+    }
+
+    .desktop-introduction .left-side, .desktop-introduction .right-side {
+        width: 48%;        
+    }
+
+    .desktop-introduction .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .desktop-introduction .left-side h2 {
+        text-align: left;
+    }
+
+    .desktop-introduction .contact-button {
+        width: 90%;
     }
 
 }
