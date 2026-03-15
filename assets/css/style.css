@@ -215,8 +215,9 @@ footer {
 }
 
 .footer-content {
-    display: flex;
+    display: flex;    
     flex-direction: column;
+    align-items: center;   
     gap: 16px;    
 }
 
@@ -225,7 +226,7 @@ footer {
     font-family: Bebas Neue;
     letter-spacing: 2px;   
     font-size: 2.5rem;
-    text-align: left;
+    text-align: center;
 }
 
 .name p {
@@ -235,7 +236,7 @@ footer {
 .social-media ul {
     list-style-type: none;    
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .social-media ul li a {
@@ -245,7 +246,7 @@ footer {
 
 .page-links {
     display: flex;
-    gap: 3rem;
+    gap: 9rem;
 }
 
 .page-links .left, .page-links .right {
