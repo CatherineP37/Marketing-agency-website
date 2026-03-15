@@ -156,7 +156,9 @@ header {
 .services .service {
     display: flex;
     flex-direction: column;
-    gap: 16px;  
+    gap: 16px;
+    background-color: #ECF9F7;
+    padding: 16px 1rem;
 }
 
 .services .service .image-container img {
