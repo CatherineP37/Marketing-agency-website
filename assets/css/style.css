@@ -404,6 +404,10 @@ footer {
 
     /* Contact */
 
+    .contact-section {
+        gap: 24px;
+    }
+
     .contact {        
         flex-direction: row;
         justify-content: space-between;
@@ -471,9 +475,10 @@ footer {
 
     /* Contact */
 
-     .contact-form form textarea {
+      .contact-form form textarea {
         min-height: 200px;
     }
+
 
 }
 
