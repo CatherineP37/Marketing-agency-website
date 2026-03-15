@@ -10,30 +10,33 @@
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo"><h1>DIGITAL MARKETING</h1></a>
+		<section class = "header-content">
+			<a href="index.html" class="logo"><h1>DIGITAL MARKETING</h1></a>
+			<nav class="desktop-menu">							
+				<ul>
+					<li>
+						<a href="index.html" class="active">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>					
+						<a href="services.html">Services</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>														
+				</ul>			
+		</nav>		
+        
         <button id="closed" onclick="openMobileMenu()">
             <i class="fa-solid fa-bars"></i>            
         </button>
         <button id="opened" onclick="closeMobileMenu()">
             <i class="fa-solid fa-xmark"></i>
         </button>
-		<nav class="desktop-menu">			
-			<ul>
-				<li>
-                    <a href="index.html" class="active">Home</a>
-				</li>
-				<li>
-                    <a href="about.html">About</a>
-				</li>
-				<li>					
-                    <a href="services.html">Services</a>
-				</li>
-				<li>
-                    <a href="contact.html">Contact</a>
-			    </li>														
-		    </ul>		
-			
-		</nav>				
+		</section>			
+					
 	</header>
     <ul id="mobileMenu" class="mobile-menu">
 				<li>
