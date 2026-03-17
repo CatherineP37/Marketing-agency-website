@@ -173,6 +173,17 @@ header {
     gap: 16px;
 }
 
+/* Text container */
+
+.text-container {
+    background-color: #ECF9F7;
+    width: 100%;
+    padding: 16px 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 /* Services section */
 
 .services {
