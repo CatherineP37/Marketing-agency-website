@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/758be0af3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+		<section class = "header-content">
+			<a href="index.html" class="logo"><h1>DIGITAL MARKETING</h1></a>
+			<nav class="desktop-menu">							
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>					
+						<a href="services.html">Services</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>														
+				</ul>			
+		</nav>		
+        
+        <button id="closed" onclick="openMobileMenu()">
+            <i class="fa-solid fa-bars"></i>            
+        </button>
+        <button id="opened" onclick="closeMobileMenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+		</section>			
+					
+	</header>
+    <ul id="mobileMenu" class="mobile-menu">
+				<li>
+                    <a href="index.html">Home</a>
+				</li>
+				<li>
+                    <a href="about.html">About</a>
+				</li>
+				<li>					
+                    <a href="services.html">Services</a>
+				</li>
+				<li>
+                    <a href="contact.html">Contact</a>
+			    </li>														
+		    </ul>
+	<main>
+        <section class="container">
+            <h2>Accessibility statement</h2>
+            <div class="text-container">
+                <p></p>
+                <p></p>
+                <p></p>                
+            </div>
+        </section>
+
+		<section class="container">
+			
+			<div class="contact-section">
+				<h2>Get in touch</h2>
+				<div class="contact-message">
+					<p>We reply within 24 hours. If you would like us to call you back please tell us your phone number in your message.</p>
+				</div>
+				<div class="contact">
+					<div class="image">
+				    	<img src="assets/images/footer.svg">
+			    	</div>
+					<div class="contact-form">
+						<form>        
+							<div>
+								<label for="name">Your name</label>					    
+								<input type="text" id="name" required>
+							</div>
+							<div>
+								<label for="email">Your email address</label>					    
+								<input type="email" id="email" required>
+							</div>
+							<div>
+								<label for="message">How can we help you?</label>			            
+								<textarea id="message" required></textarea>
+							</div>
+							<div>
+								<input type="submit" class="contact-button" value="Send message">
+							</div>				
+						</form>
+					</div>
+				</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-content">
+			<div class="group-1">
+				<div class="name">
+					<h2>DIGITAL MARKETING</h2>
+					<p><i class="fa-regular fa-copyright"></i>&nbsp;Digital Marketing Agency 2026</p>
+		    	</div>		
+		    	<div class="social-media">
+					<ul>
+						<li>
+							<a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="Visit our LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
+						</li>
+					</ul>
+		    	</div>
+			</div>			
+		    
+			<div class="group-2">
+				<ul class="left">
+					<a>Home</a>
+					<a>About</a>
+					<a>Services</a>
+				</ul>
+				<ul class="right">
+					<a>Contact</a>
+					<a>Privacy</a>
+					<a>Accessibility</a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
