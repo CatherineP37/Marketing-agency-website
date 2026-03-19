@@ -680,6 +680,24 @@ footer {
         min-height: 200px;
     }
 
+    /* FAQ */
+
+    .questions-section {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;        
+    }
+
+    .questions-section .questions-container {        
+        width: 47%;       
+    }
+
+    .questions-section .image {
+        width: 47%;        
+        display: block;
+    }
+
     /* Footer */
 
     .footer-content {
