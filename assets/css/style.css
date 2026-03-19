@@ -321,16 +321,25 @@ header {
 
 /* FAQ */
 
-.questions-container {
+.questions-section {
+    width: 100%;    
+}
+
+.questions-section .questions-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.question-container {
+.questions-section .image {
+    display: none;
+}
+
+.questions {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 .question-container .question {
@@ -348,7 +357,7 @@ header {
     cursor: pointer;
 }
 
-.question-container .one .answer {
+.question-container .answer {
     background-color: #FFFFFF;
     padding: 16px 1rem;
     display: none;
@@ -356,6 +365,11 @@ header {
 
 .question-container.open .answer {
     display: block;
+}
+
+.question-button {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 /* Footer */
