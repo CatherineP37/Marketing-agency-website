@@ -1,6 +1,13 @@
 let mobileMenu = document.getElementById('mobileMenu');
 let opened = document.getElementById('opened');
 let closed = document.getElementById('closed');
+const questions = document.querySelectorAll('.question-container');
+
+questions.forEach(question => {
+    question.addEventListener('click', e => {
+        question.classList.toggle('open');
+    })
+})    
 
 function openMobileMenu() {    
     mobileMenu.style.display = "flex";

@@ -354,6 +354,10 @@ header {
     display: none;
 }
 
+.question-container.open .answer {
+    display: block;
+}
+
 /* Footer */
 
 footer {
