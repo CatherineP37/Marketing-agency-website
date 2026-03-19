@@ -620,15 +620,15 @@ footer {
     .desktop-about-section {        
         width: 82%;      
     }
-
-     .desktop-about-section .left-side .paragraph-2 {
+    
+    .desktop-about-section .left-side .paragraph-2 {
         display: flex;
         flex-direction: column;
         gap: 16px;
     }
 
-       .desktop-about-section .left-side .contact-button {
-        margin: 20px 0 0 0;        
+    .desktop-about-section .left-side .contact-button {
+        margin: 8px 0 0 0;        
     }
 
      /* Container */
@@ -645,5 +645,21 @@ footer {
         max-width: 1150px;
     }
     
+}
+
+@media screen and (min-width: 1400px) {
+
+    /* Desktop about section */
+    
+    .desktop-about-section .left-side .paragraph-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .desktop-about-section .left-side .contact-button {
+        margin: 4px 0 0 0;        
+    }
+
 }
 
