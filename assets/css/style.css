@@ -91,7 +91,10 @@ header {
 
 .mobile-menu li {
     padding: 16px 1rem;
-    background-color: #2F9387;  
+    background-color: #2F9387;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    transition-duration: .3s; 
 }
 
 .mobile-menu li:hover {
