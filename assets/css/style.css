@@ -447,7 +447,7 @@ footer {
         display: none;
     }
 
-    .desktop-about-section .left-side .contact-button {
+    .desktop-about-section .left-side .contact-button {        
         width: 80%;
     }
 
@@ -613,9 +613,9 @@ footer {
     .desktop-introduction .left-side .contact-button {        
         margin: 40px 0 0 0;
         width: 90%;
-    }
+    } 
 
-      /* Desktop about section */
+    /* Desktop about section */
 
     .desktop-about-section {        
         width: 82%;      
@@ -625,6 +625,10 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 16px;
+    }
+
+       .desktop-about-section .left-side .contact-button {
+        margin: 20px 0 0 0;        
     }
 
      /* Container */
