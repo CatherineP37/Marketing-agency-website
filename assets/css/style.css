@@ -134,7 +134,10 @@ header {
     padding: 12px 0;
     font-size: 1rem;
     text-align: center;
-    width: 100%;    
+    width: 100%;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
 }
 
 .contact-button:hover {
