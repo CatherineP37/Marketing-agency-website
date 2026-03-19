@@ -319,6 +319,41 @@ header {
     width: 100%;
 }
 
+/* FAQ */
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.question-container .question {
+    background-color: #ECF9F7;
+    padding: 16px 1rem;
+    display: flex;
+    justify-content: space-between;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;   
+}
+
+.question-container .question:hover {
+    background-color: #C8EBE6;
+    cursor: pointer;
+}
+
+.question-container .one .answer {
+    background-color: #FFFFFF;
+    padding: 16px 1rem;
+    display: none;
+}
+
 /* Footer */
 
 footer {
