@@ -248,6 +248,49 @@ header {
     flex-direction: column;
 }
 
+.steps-container {       
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.steps-container .bar {
+    width: 80%;
+    height: 5px;
+    background-color: #2F9387;
+    position: absolute;
+    left: 8%;
+    top: 25px;
+    z-index: 1;
+}
+
+.steps {    
+    display: flex;
+    justify-content: space-between;
+    padding: 0;    
+}
+
+.steps .step {    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.steps .step .circle {
+    background-color: #2F9387;
+    color: #FFFFFF;
+    font-family: inter;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 2;
+}
+
 .contact .image {
     display: none;
 }
