@@ -5,7 +5,13 @@ const questions = document.querySelectorAll('.question-container');
 
 questions.forEach(question => {
     question.addEventListener('click', e => {
+        let questionButton = document.getElementById('questionButton');
         question.classList.toggle('open');
+        if(questionButton.textContent === '+') {
+            questionButton.textContent = '-';
+        } else {
+            questionButton.textContent = '+';
+        }
     })
 })    
 
