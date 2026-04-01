@@ -429,6 +429,10 @@ footer {
     font-size: 1rem;
 }
 
+.footer-title:hover {
+    cursor: pointer;
+}
+
 .group-2 {
     display: flex;
     gap: 9rem;
@@ -468,8 +472,7 @@ footer {
     .desktop-menu ul {
         list-style-type: none;
         display: flex;
-        gap: 2rem;
-        
+        gap: 2rem;        
     }
 
     .desktop-menu ul li a:hover {
