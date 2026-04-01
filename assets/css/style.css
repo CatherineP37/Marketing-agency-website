@@ -545,6 +545,10 @@ footer {
         gap: 16px;
     }
 
+    .desktop-about-section .left-side h3 {
+        text-align: left;
+    }
+
     .desktop-about-section .left-side .paragraph-2 {
         display: none;
     }
