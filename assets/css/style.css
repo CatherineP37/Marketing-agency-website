@@ -372,7 +372,7 @@ header {
     display: block;
 }
 
-.question-button {
+.question button {
     font-size: 1.5rem;
     font-weight: regular;
     background-color: #ECF9F7;
