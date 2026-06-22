@@ -358,8 +358,7 @@ header {
     transition-duration: .3s;   
 }
 
-.question-container .question:hover {
-    background-color: #C8EBE6;
+.question-container .question:hover {    
     cursor: pointer;
 }
 
@@ -375,7 +374,8 @@ header {
 
 .question-button {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: regular;
+    background-color: #ECF9F7;
 }
 
 /* Footer */
